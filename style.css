@@ -64,8 +64,8 @@ a {
 }
 
 .div-title {
-  font-family: "Tangerine", cursive;
-  font-size: 65px;
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
   color: rgb(45, 40, 41);
   text-align: center;
   padding: 0px;
@@ -77,7 +77,7 @@ a {
 }
 
 #photo-wine {
-  width: 49%;
+  width: 595px;
   height: 100px;
 }
 
@@ -101,13 +101,18 @@ a {
 }
 
 .description-guest-book {
-  margin-top: 60px;
+  margin-top: 0px;
   float: left;
   margin-left: 5px;
   width: 590px;
   font-size: 23px;
   margin-bottom: 10px;
   text-align: center;
+}
+
+.description-guest-book a {
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
 }
 
 .description-hotel-room {
@@ -173,7 +178,7 @@ a {
 #romeo {
   padding-top: 180px;
   padding-left: 50px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Great Vibes", cursive;
 }
 
 #romeo a {
@@ -206,7 +211,7 @@ a {
 }
 
 .adres {
-  font-family: "Tangerine", cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 35px;
   color: rgb(255, 255, 255);
   text-align: center;
