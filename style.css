@@ -55,7 +55,7 @@ a {
 }
 
 #photo {
-  width: 590px;
+  width: 595px;
   height: 400px;
 }
 
@@ -76,15 +76,19 @@ a {
   width: 590px;
 }
 
+#photo-wine {
+  width: 49%;
+  height: 100px;
+}
+
 #photo-invitation {
   width: 575px;
   margin: 10px 10px 5px 10px;
 }
 
 #photo-Marta-Piotr {
-  width: 575px;
+  width: 595px;
   height: 400px;
-  margin: 10px 10px 5px 10px;
 }
 
 .description-invitation {
