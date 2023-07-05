@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "fontello";
-  src: url("../font/fontello.eot?66805059");
-  src: url("../font/fontello.eot?66805059#iefix") format("embedded-opentype"),
-    url("../font/fontello.woff2?66805059") format("woff2"),
-    url("../font/fontello.woff?66805059") format("woff"),
-    url("../font/fontello.ttf?66805059") format("truetype"),
-    url("../font/fontello.svg?66805059#fontello") format("svg");
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?23529637');
+  src: url('../font/fontello.eot?23529637#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?23529637') format('woff2'),
+       url('../font/fontello.woff?23529637') format('woff'),
+       url('../font/fontello.ttf?23529637') format('truetype'),
+       url('../font/fontello.svg?23529637#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,12 +15,11 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?66805059#fontello') format('svg');
+    src: url('../font/fontello.svg?23529637#fontello') format('svg');
   }
 }
 */
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
+[class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
@@ -29,7 +28,7 @@
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: 0.2em;
+  margin-right: .2em;
   text-align: center;
   /* opacity: .8; */
 
@@ -42,7 +41,7 @@
 
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: 0.2em;
+  margin-left: .2em;
 
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
@@ -55,34 +54,13 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-phone:before {
-  content: "\e800";
-} /* '' */
-.icon-mail:before {
-  content: "\e801";
-} /* '' */
-.icon-clock-alt:before {
-  content: "\e802";
-} /* '' */
-.icon-youtube:before {
-  content: "\e803";
-  font-size: 30px;
-} /* '' */
-.icon-location:before {
-  content: "\e804";
-  font-size: 30px;
-} /* '' */
-.icon-twitter:before {
-  content: "\e805";
-  font-size: 30px;
-} /* '' */
-.icon-adult:before {
-  content: "\e806";
-} /* '' */
-.icon-facebook:before {
-  content: "\f09a";
-  font-size: 30px;
-} /* '' */
-.icon-laptop:before {
-  content: "\f109";
-} /* '' */
+.icon-phone:before { content: '\e800'; } /* '' */
+.icon-mail:before { content: '\e801'; } /* '' */
+.icon-clock-alt:before { content: '\e802'; } /* '' */
+.icon-youtube:before { content: '\e803'; } /* '' */
+.icon-location:before { content: '\e804'; } /* '' */
+.icon-twitter:before { content: '\e805'; } /* '' */
+.icon-adult:before { content: '\e806'; } /* '' */
+.icon-clock:before { content: '\e807'; } /* '' */
+.icon-facebook:before { content: '\f09a'; } /* '' */
+.icon-laptop:before { content: '\f109'; } /* '' */

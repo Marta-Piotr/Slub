@@ -100,39 +100,44 @@
 
       <script>
         function updateCountdown() {
-          // Ustalamy datę docelową (8 września 2023 roku)
-          var targetDate = new Date("September 8, 2023 00:00:00").getTime();
+          // Ustalamy docelowe czasy
+          var weddingTime = new Date("September 8, 2023 14:15:00").getTime();
+          var thankYouTime = new Date("September 9, 2023 06:00:00").getTime();
 
-          // Ustalamy datę obecną
-          var currentDate = new Date().getTime();
+          // Ustalamy obecny czas
+          var currentTime = new Date().getTime();
 
-          // Obliczamy różnicę między datami
-          var timeRemaining = targetDate - currentDate;
+          if (currentTime >= weddingTime && currentTime < thankYouTime) {
+            var countdownElement = document.getElementById("countdown");
+            countdownElement.innerHTML = "Czas na wesele!";
+          } else if (currentTime >= thankYouTime) {
+            var countdownElement = document.getElementById("countdown");
+            countdownElement.innerHTML = "Dziękujemy za dobrą zabawę!";
+          } else {
+            var timeRemaining = weddingTime - currentTime;
+            var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+            var hours = Math.floor(
+              (timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+            );
+            var minutes = Math.floor(
+              (timeRemaining % (1000 * 60 * 60)) / (1000 * 60)
+            );
+            var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
-          // Obliczamy ilość dni, godzin, minut i sekund
-          var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
-          var hours = Math.floor(
-            (timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-          );
-          var minutes = Math.floor(
-            (timeRemaining % (1000 * 60 * 60)) / (1000 * 60)
-          );
-          var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
-
-          // Dodajemy wartości do diva
-          var countdownElement = document.getElementById("countdown");
-          countdownElement.innerHTML =
-            days +
-            " dni " +
-            hours +
-            " godzin, " +
-            minutes +
-            " minut, " +
-            seconds +
-            " sekund.";
+            var countdownElement = document.getElementById("countdown");
+            countdownElement.innerHTML =
+              "<i class='icon-clock'></i>" +
+              days +
+              " dni, " +
+              hours +
+              " godzin, " +
+              minutes +
+              " minut, " +
+              seconds +
+              " sekund.";
+          }
         }
 
-        // Wywołujemy aktualizację czasu co sekundę
         setInterval(updateCountdown, 1000);
       </script>
 
