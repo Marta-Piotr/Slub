@@ -71,6 +71,7 @@
             "img/Zdj2.jpg",
             "img/Zdj3.jpg",
             "img/Zdj4.jpg",
+            "img/Zdj5.jpg",
           ];
           var index = 0;
 
@@ -95,8 +96,7 @@
         <div id="guest-book"></div>
       </div>
 
-      <div id="countdown">
-      </div>
+      <div id="countdown"></div>
 
       <script>
         function updateCountdown() {
@@ -122,9 +122,8 @@
           // Dodajemy wartości do diva
           var countdownElement = document.getElementById("countdown");
           countdownElement.innerHTML =
-            "<div class='days'>" +
             days +
-            " dni</div>" +
+            " dni " +
             hours +
             " godzin, " +
             minutes +
