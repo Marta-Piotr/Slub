@@ -28,7 +28,7 @@ body {
   font-size: 50px;
   text-align: center;
   float: left;
-  color: rgb(45, 40, 41);
+  color: rgb(0, 0, 0);
   padding-top: 10px;
   width: 1200px;
 }
@@ -63,6 +63,75 @@ a {
   background-color: #ffffff;
 }
 
+#timeline {
+  background-color: white;
+  font-family: "Great Vibes", cursive;
+  color: white;
+  font-size: 35px;
+}
+
+.time1 {
+  float: left;
+  width: 298px;
+  margin-left: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-color: hsl(358, 28%, 83%);
+  text-align: center;
+  height: 50px;
+  padding-top: 20px;
+}
+
+.time2 {
+  float: left;
+  width: 298px;
+  margin-left: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-color: #d7b5b5;
+  text-align: center;
+  padding-top: 20px;
+  height: 50px;
+}
+
+.time3 {
+  float: left;
+  height: 50px;
+  padding-top: 20px;
+  width: 298px;
+  margin-left: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-color: #d4a2a2;
+  text-align: center;
+}
+
+.time4 {
+  float: left;
+  width: 296px;
+  margin-left: 2px;
+  margin-top: 2px;
+  padding-top: 20px;
+  margin-bottom: 2px;
+  height: 50px;
+  background-color: #cf9999;
+  text-align: center;
+}
+
+#countdown {
+  background-color: white;
+  font-family: "Great Vibes", cursive;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  margin: 0 auto;
+}
+
+#countdown .days {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 .div-title {
   font-family: "Great Vibes", cursive;
   font-size: 50px;
@@ -106,13 +175,16 @@ a {
   margin-left: 5px;
   width: 590px;
   font-size: 23px;
+  color: black;
   margin-bottom: 10px;
   text-align: center;
+  background-color: white;
 }
 
 .description-guest-book a {
   font-family: "Great Vibes", cursive;
   font-size: 50px;
+  background-color: white;
 }
 
 .description-hotel-room {

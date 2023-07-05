@@ -86,6 +86,57 @@
         </script>
       </div>
 
+      <div id="timeline">
+        <div class="time1">08.05.2010</div>
+        <div class="time2">08.02.2013</div>
+        <div class="time3">08.08.2020</div>
+        <div class="time4">08.09.2023</div>
+        <div style="clear: both"></div>
+        <div id="guest-book"></div>
+      </div>
+
+      <div id="countdown">
+      </div>
+
+      <script>
+        function updateCountdown() {
+          // Ustalamy datę docelową (8 września 2023 roku)
+          var targetDate = new Date("September 8, 2023 00:00:00").getTime();
+
+          // Ustalamy datę obecną
+          var currentDate = new Date().getTime();
+
+          // Obliczamy różnicę między datami
+          var timeRemaining = targetDate - currentDate;
+
+          // Obliczamy ilość dni, godzin, minut i sekund
+          var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+          var hours = Math.floor(
+            (timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+          );
+          var minutes = Math.floor(
+            (timeRemaining % (1000 * 60 * 60)) / (1000 * 60)
+          );
+          var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+          // Dodajemy wartości do diva
+          var countdownElement = document.getElementById("countdown");
+          countdownElement.innerHTML =
+            "<div class='days'>" +
+            days +
+            " dni</div>" +
+            hours +
+            " godzin, " +
+            minutes +
+            " minut, " +
+            seconds +
+            " sekund.";
+        }
+
+        // Wywołujemy aktualizację czasu co sekundę
+        setInterval(updateCountdown, 1000);
+      </script>
+
       <div id="guest-book">
         <div id="div-photo-guest-book">
           <img id="photo-guest-book" src="img/Ksiega_gosci.png" />
