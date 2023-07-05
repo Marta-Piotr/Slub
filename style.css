@@ -67,7 +67,7 @@ a {
   background-color: white;
   font-family: "Great Vibes", cursive;
   color: white;
-  font-size: 35px;
+  font-size: 50px;
 }
 
 .time1 {
@@ -76,10 +76,9 @@ a {
   margin-left: 2px;
   margin-top: 2px;
   margin-bottom: 2px;
-  background-color: hsl(358, 28%, 83%);
+  background-color: #ddc7c7;
   text-align: center;
-  height: 50px;
-  padding-top: 20px;
+  height: 100px;
 }
 
 .time2 {
@@ -90,14 +89,13 @@ a {
   margin-bottom: 2px;
   background-color: #d7b5b5;
   text-align: center;
-  padding-top: 20px;
-  height: 50px;
+
+  height: 100px;
 }
 
 .time3 {
   float: left;
-  height: 50px;
-  padding-top: 20px;
+  height: 100px;
   width: 298px;
   margin-left: 2px;
   margin-top: 2px;
@@ -111,11 +109,31 @@ a {
   width: 296px;
   margin-left: 2px;
   margin-top: 2px;
-  padding-top: 20px;
+
   margin-bottom: 2px;
-  height: 50px;
+  height: 100px;
   background-color: #cf9999;
   text-align: center;
+}
+
+#diamond-ring {
+  padding-top: 20px;
+  width: 50px;
+}
+
+#wedding-couple {
+  padding-top: 20px;
+  width: 50px;
+}
+
+#kiss {
+  padding-top: 20px;
+  width: 50px;
+}
+
+#handshake {
+  padding-top: 20px;
+  width: 50px;
 }
 
 #countdown {
