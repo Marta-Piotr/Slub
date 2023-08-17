@@ -33,6 +33,10 @@ body {
   width: 1200px;
 }
 
+#circle {
+  width: 50px;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -200,6 +204,20 @@ a {
   background-color: white;
 }
 
+.description-hotel {
+  width: 1200px;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  background-color: white;
+}
+
+.description-hotel a {
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  background-color: white;
+}
+
 .description-hotel-room {
   margin-top: 30px;
   text-align: center;
@@ -225,8 +243,13 @@ a {
   width: 600px;
 }
 
-#photo-guest-book {
+#photo-hotel {
+  float: left;
   width: 600px;
+}
+
+#photo-guest-book {
+  width: 595px;
 }
 
 #maps {
@@ -235,7 +258,7 @@ a {
 
 #div-hall-city {
   margin-bottom: 5px;
-  background-color: #d4a2a2;
+  background-color: #d7b5b5;
   width: 450px;
   height: 570px;
   float: left;
@@ -254,7 +277,7 @@ a {
 
 #div-romeo {
   margin-bottom: 5px;
-  background-color: #e8c0ba;
+  background-color: #ddc7c7;
   width: 450px;
   height: 570px;
   float: left;
@@ -278,15 +301,15 @@ a {
 
 #div-hotel {
   margin-bottom: 5px;
-  background-color: #eab7ad;
-  width: 550px;
-  height: 470px;
+  background-color: #d4a2a2;
+  width: 450px;
+  height: 570px;
   float: left;
 }
 
 #hotel {
-  padding-top: 180px;
-  padding-left: 70px;
+  padding-top: 60px;
+  padding-left: 10px;
   font-family: "Montserrat", sans-serif;
 }
 
