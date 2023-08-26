@@ -258,7 +258,7 @@ a {
 
 #div-hall-city {
   margin-bottom: 5px;
-  background-color: #d7b5b5;
+  background-color: #d4a2a2;
   width: 450px;
   height: 570px;
   float: left;
@@ -277,7 +277,7 @@ a {
 
 #div-romeo {
   margin-bottom: 5px;
-  background-color: #ddc7c7;
+  background-color: #d7b5b5;
   width: 450px;
   height: 570px;
   float: left;
@@ -301,7 +301,7 @@ a {
 
 #div-hotel {
   margin-bottom: 5px;
-  background-color: #d4a2a2;
+  background-color: #cf9999;
   width: 450px;
   height: 570px;
   float: left;
@@ -311,6 +311,25 @@ a {
   padding-top: 60px;
   padding-left: 10px;
   font-family: "Montserrat", sans-serif;
+}
+
+#div-breakfast {
+  margin-bottom: 5px;
+  background-color: #ddc7c7;
+  width: 450px;
+  height: 570px;
+  float: left;
+}
+
+#breakfast {
+  padding-top: 160px;
+  padding-left: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#breakfast a {
+  color: white;
+  padding-left: 65px;
 }
 
 #hotel a {
