@@ -29,7 +29,7 @@
       <div id="title">
         <div id="logo">
           <a style="margin-left: 15px" href="#heading"
-            >Dziękujemy za potwierdzenie przybycia!</a
+            >Dziękujemy za dobra zabawe!</a
           >
         </div>
         <div style="clear: both"></div>
@@ -122,7 +122,7 @@
             countdownElement.innerHTML = "Czas na ślub!";
           } else if (currentTime >= thankYouTime) {
             var countdownElement = document.getElementById("countdown");
-            countdownElement.innerHTML = "Dziękujemy za dobrą zabawę!";
+            countdownElement.innerHTML = "Film";
           } else {
             var timeRemaining = weddingTime - currentTime;
             var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
@@ -150,6 +150,16 @@
 
         setInterval(updateCountdown, 1000);
       </script>
+
+      <iframe
+        width="1200"
+        height="680"
+        src="https://www.youtube.com/embed/weucCdo9DeM?si=M4GBfEl3GpluqKj0"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
 
       <div id="guest-book">
         <div id="div-photo-guest-book">
@@ -190,20 +200,6 @@
         </div>
         <div style="clear: both"></div>
       </div>
-
-      <div id="maps">
-        <div class="div-title">Film</div>
-      </div>
-
-      <iframe
-        width="1200"
-        height="640"
-        src="https://www.youtube.com/embed/weucCdo9DeM?si=M4GBfEl3GpluqKj0"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
 
       <div id="maps">
         <div class="div-title">Mapy</div>
